@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 
 // set static folder
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static( path.join(__dirname, "public")));
 
 // parse cookies 
 app.use(cookieParser(process.env.COOKIE_SECRET));
@@ -32,3 +32,4 @@ app.use(cookieParser(process.env.COOKIE_SECRET));
 // error handling
 
 app.listen( process.env.PORT,() => console.log(`app is listening at port ${process.env.PORT} `))
+

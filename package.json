@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/abutahar/chat-application#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "3.0.3"
   },
