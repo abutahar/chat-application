@@ -1,0 +1,36 @@
+{
+  "name": "chat_application",
+  "version": "1.0.0",
+  "description": "mini chat app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abutahar/chat-application.git"
+  },
+  "author": "Sumit saha $ tahar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abutahar/chat-application/issues"
+  },
+  "homepage": "https://github.com/abutahar/chat-application#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "3.0.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
