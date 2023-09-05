@@ -4,8 +4,8 @@
   "description": "mini chat app",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "prod": "node app.js"
+    "start": "NODE_ENV=Development nodemon app.js",
+    "prod": "NODE_ENV=Production node app.js"
   },
   "repository": {
     "type": "git",
