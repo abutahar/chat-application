@@ -2,11 +2,11 @@
 const express = require('express')
 
 // extenal imports
-const { getUsers } = require('../controller/usersController')
 const decorateHtmlResponse = require('../middlewares/common/decorateHtml')
+const { getInbox } = require('../controller/inboxController')
 
 const router = express.Router()
 
-router.get("/",decorateHtmlResponse("Users"), getUsers)
+router.get("/",decorateHtmlResponse("Inbox"), getInbox)
 
-module.exports = router;
+module.exports = router; 

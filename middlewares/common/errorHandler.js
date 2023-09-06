@@ -8,9 +8,7 @@ function notFoundHandler( req, res, next){
 
 //default error handler 
 function errorHandler(err, req, res, next){
-    res.render('error.ejs',{
-        title:"error page"
-    })
+    res.render('error')
     next()
 }
 
